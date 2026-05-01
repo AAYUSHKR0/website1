@@ -289,3 +289,29 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
